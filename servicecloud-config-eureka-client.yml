@@ -16,7 +16,7 @@ eureka:
     hostname: eureka7001.com
   client:
     register-with-eureka: false
-    fetch-registry: fasle
+    fetch-registry: false
     service-url:
       defaultZone: http://localhost:7001/eureka/
 ---
